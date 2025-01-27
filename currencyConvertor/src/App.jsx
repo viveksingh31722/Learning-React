@@ -52,7 +52,7 @@ function App() {
         <div className="absolute inset-0 bg-gradient-to-br from-black via-transparent to-transparent backdrop-blur-lg"></div>
 
         <div className="absolute top-15 left-1/2 transform -translate-x-1/2 text-4xl font-extrabold text-transparent bg-clip-text bg-gradient-to-br from-teal-400 via-blue-500 to-purple-600 shadow-2xl z-20">
-          Currency Conversion
+          Currency Convertor
         </div>
 
         <div className="w-full max-w-md mx-auto rounded-xl p-8 bg-gradient-to-br from-teal-400 via-blue-500 to-purple-600 shadow-2xl transform transition-all duration-500 hover:scale-105 z-10 relative">

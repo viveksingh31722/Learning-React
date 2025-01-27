@@ -1,5 +1,5 @@
 import  React, {useId} from "react";
-function InputBox({ // InpuBox component to take input from the user.
+function InputBox({ // InputBox component to take input from the user.
   label,
   amount,
   onAmountChange,
@@ -36,7 +36,7 @@ function InputBox({ // InpuBox component to take input from the user.
         disabled={currencyDisabled}
       >
         {currencyOptions.map((currency) => (
-          <option key={currency} value={currency}>{currency}</option>
+          <option key={currency} value={currency}>{currency}</option> // providing the key in loop is good practice to avoid the warning.
         ))}
       </select>
     </div>
