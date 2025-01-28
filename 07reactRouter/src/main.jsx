@@ -32,8 +32,8 @@ import Github, {githubInfoLoader} from './components/GitHub/Github.jsx'
 //   }
 // ])
 
-const router = createBrowserRouter( // or we can use createRoutesFromElements() function to create routes.
-  createRoutesFromElements(
+const router = createBrowserRouter( 
+  createRoutesFromElements( // or we can use createRoutesFromElements() function to create routes.
     <Route path='/' element={<Layout/>}>
       <Route path='' element={<Home />}/>
       <Route path='about' element={<About />}/>
