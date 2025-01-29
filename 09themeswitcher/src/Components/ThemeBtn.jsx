@@ -3,7 +3,7 @@ import useTheme from '../contexts/Theme';
 
 export default function ThemeBtn() {
     
-   const {themeMode, lightTheme, darkTheme} = useTheme(); // Destructure the themeMode, lightTheme, and darkTheme from use Theme hook
+   const {themeMode, lightTheme, darkTheme} = useTheme(); // Destructure the themeMode, lightTheme, and darkTheme from useTheme hook.
 
    const onChangeBtn = (e) => {// create a function called onChangeBtn that takes an event as an argument.
     const darkModeStatus = e.currentTarget.checked; // create a variable called darkModeStatus and set it to e.currentTarget.checked.
